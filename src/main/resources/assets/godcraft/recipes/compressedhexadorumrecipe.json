@@ -1,0 +1,43 @@
+{
+  "group": "godcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "godcraft:hexadorium"
+    },
+    "1": {
+      "item": "godcraft:hexadorium"
+    },
+    "2": {
+      "item": "godcraft:hexadorium"
+    },
+    "3": {
+      "item": "godcraft:hexadorium"
+    },
+    "4": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "5": {
+      "item": "godcraft:hexadorium"
+    },
+    "6": {
+      "item": "godcraft:hexadorium"
+    },
+    "7": {
+      "item": "godcraft:hexadorium"
+    },
+    "8": {
+      "item": "godcraft:hexadorium"
+    }
+  },
+  "result": {
+    "item": "godcraft:compressedhexadorium",
+    "count": 1
+  }
+}

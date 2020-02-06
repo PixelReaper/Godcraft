@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ExistenceGem"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      },
+      {
+        "value": "CUSTOM:CompressedHexadorium"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "existencegemrecipe",
+    "namespace": "mod"
+  }
+}

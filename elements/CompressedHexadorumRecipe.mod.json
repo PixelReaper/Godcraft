@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:CompressedHexadorium"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      },
+      {
+        "value": "CUSTOM:Hexadorium"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "compressedhexadorumrecipe",
+    "namespace": "mod"
+  }
+}

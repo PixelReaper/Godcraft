@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "godcraft:blocks/hexadorum_ore",
+    "particle": "godcraft:blocks/hexadorum_ore"
+  }
+}
