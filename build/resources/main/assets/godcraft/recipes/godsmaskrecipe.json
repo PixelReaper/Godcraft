@@ -1,0 +1,42 @@
+{
+  "group": "godcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "godcraft:compressedhexadorium"
+    },
+    "1": {
+      "item": "godcraft:existencegem"
+    },
+    "2": {
+      "item": "godcraft:compressedhexadorium"
+    },
+    "3": {
+      "item": "godcraft:compressedhexadorium"
+    },
+    "4": {
+      "item": "minecraft:ender_eye"
+    },
+    "5": {
+      "item": "godcraft:compressedhexadorium"
+    },
+    "6": {
+      "item": "minecraft:ender_pearl"
+    },
+    "7": {
+      "item": "minecraft:nether_star"
+    },
+    "8": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "godcraft:godsmaskhelmet",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@ package net.mcreator.godcraft;
 
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.init.MobEffects;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
@@ -17,6 +18,8 @@ public class MCreatorGodEffectTierMaximus extends Elementsgodcraft.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		if (entity instanceof EntityPlayer)
+			((EntityPlayer) entity).addExperience((int) 1);
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.STRENGTH, (int) 1, (int) 255));
 		if (entity instanceof EntityLivingBase)

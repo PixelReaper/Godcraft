@@ -731,57 +731,60 @@ Class Start: net.mcreator.godcraft.MCreatorGodEffectTier2
 Class End  : net.mcreator.godcraft.MCreatorGodEffectTier2
 endProcessing "net/mcreator/godcraft/MCreatorGodEffectTier2.java"
 
-startProcessing "net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java" md5: 706f368b7b67bff3cb78f1e623602e80
+startProcessing "net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java" md5: c2db1e29c8091dc2ab15be40eeffd11b
 @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
 Class Start: net.mcreator.godcraft.MCreatorGodEffectTierMaximus
-   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|203|234|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
-   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|249|277|MCreatorGodEffectTierMaximus|class|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|false
-   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|286|313|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|253|284|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|299|327|MCreatorGodEffectTierMaximus|class|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|false
+   @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|336|363|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
    Method Start: MCreatorGodEffectTierMaximus(Lnet/mcreator/godcraft/Elementsgodcraft;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|371|379|instance|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|325|353|MCreatorGodEffectTierMaximus|method|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|354|370|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|392|400|instance|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|421|429|instance|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|375|403|MCreatorGodEffectTierMaximus|method|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|404|420|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|442|450|instance|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|MCreatorGodEffectTierMaximus|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
    Method End: MCreatorGodEffectTierMaximus(Lnet/mcreator/godcraft/Elementsgodcraft;)V
    Method Start: executeProcedure(Ljava/util/HashMap;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|484|496|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|433|449|executeProcedure|method|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|450|467|java.util.HashMap|class|java.util.HashMap|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|468|474|String|class|java.lang.String|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|476|482|Object|class|java.lang.Object|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|507|519|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|520|523|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|549|555|System|class|java.lang.System|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|556|559|err|field|java.lang.System|err
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|560|567|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|669|675|Entity|class|net.minecraft.entity.Entity|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|686|692|Entity|class|net.minecraft.entity.Entity|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|694|706|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|707|710|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|747|763|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|771|787|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|797|812|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|817|829|PotionEffect|class|net.minecraft.potion.PotionEffect|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|830|840|MobEffects|class|net.minecraft.init.MobEffects|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|841|849|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|898|914|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|922|938|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|948|963|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|968|980|PotionEffect|class|net.minecraft.potion.PotionEffect|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|981|991|MobEffects|class|net.minecraft.init.MobEffects|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|992|1002|RESISTANCE|field|net.minecraft.init.MobEffects|RESISTANCE
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1051|1067|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1075|1091|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1101|1116|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1121|1133|PotionEffect|class|net.minecraft.potion.PotionEffect|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1134|1144|MobEffects|class|net.minecraft.init.MobEffects|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1145|1157|REGENERATION|field|net.minecraft.init.MobEffects|REGENERATION
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1206|1222|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1230|1246|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1256|1271|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1276|1288|PotionEffect|class|net.minecraft.potion.PotionEffect|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1289|1299|MobEffects|class|net.minecraft.init.MobEffects|false
-      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1300|1305|HASTE|field|net.minecraft.init.MobEffects|HASTE
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|534|546|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|483|499|executeProcedure|method|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|500|517|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|518|524|String|class|java.lang.String|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|526|532|Object|class|java.lang.Object|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|557|569|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|570|573|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|599|605|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|606|609|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|610|617|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|719|725|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|736|742|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|744|756|dependencies|param|net.mcreator.godcraft.MCreatorGodEffectTierMaximus|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|757|760|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|797|809|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|817|829|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|839|852|addExperience|method|net.minecraft.entity.player.EntityPlayer|addExperience|(I)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|888|904|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|912|928|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|938|953|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|958|970|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|971|981|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|982|990|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1039|1055|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1063|1079|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1089|1104|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1109|1121|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1122|1132|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1133|1143|RESISTANCE|field|net.minecraft.init.MobEffects|RESISTANCE
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1192|1208|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1216|1232|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1242|1257|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1262|1274|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1275|1285|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1286|1298|REGENERATION|field|net.minecraft.init.MobEffects|REGENERATION
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1347|1363|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1371|1387|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1397|1412|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1417|1429|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1430|1440|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java|1441|1446|HASTE|field|net.minecraft.init.MobEffects|HASTE
    Method End: executeProcedure(Ljava/util/HashMap;)V
 Class End  : net.mcreator.godcraft.MCreatorGodEffectTierMaximus
 endProcessing "net/mcreator/godcraft/MCreatorGodEffectTierMaximus.java"
