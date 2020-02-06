@@ -126,14 +126,6 @@
         "eb": false,
         "ec": false
       }
-    },
-    {
-      "name": "GodsMaskRecipe",
-      "type": "recipe",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
     }
   ],
   "variable_elements": [],
