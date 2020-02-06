@@ -209,30 +209,16 @@
       "locked_code": false,
       "ids": {},
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "guiinventory",
+            "type": "map"
+          }
+        ]
       }
     }
   ],
-  "variable_elements": [
-    {
-      "name": "HexadoriumTransposerGUISlot0",
-      "type": "string",
-      "scope": "map",
-      "value": ""
-    },
-    {
-      "name": "HexadoriumTransposerGUISlot1",
-      "type": "string",
-      "scope": "map",
-      "value": ""
-    },
-    {
-      "name": "HexadoriumTransposerGUISlot2",
-      "type": "string",
-      "scope": "map",
-      "value": ""
-    }
-  ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {

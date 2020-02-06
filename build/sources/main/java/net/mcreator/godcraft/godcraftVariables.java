@@ -14,9 +14,6 @@ import net.minecraft.client.Minecraft;
 public class godcraftVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "godcraft_mapvars";
-		public String HexadoriumTransposerGUISlot0 = "";
-		public String HexadoriumTransposerGUISlot1 = "";
-		public String HexadoriumTransposerGUISlot2 = "";
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -28,16 +25,10 @@ public class godcraftVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
-			HexadoriumTransposerGUISlot0 = nbt.getString("HexadoriumTransposerGUISlot0");
-			HexadoriumTransposerGUISlot1 = nbt.getString("HexadoriumTransposerGUISlot1");
-			HexadoriumTransposerGUISlot2 = nbt.getString("HexadoriumTransposerGUISlot2");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
-			nbt.setString("HexadoriumTransposerGUISlot0", HexadoriumTransposerGUISlot0);
-			nbt.setString("HexadoriumTransposerGUISlot1", HexadoriumTransposerGUISlot1);
-			nbt.setString("HexadoriumTransposerGUISlot2", HexadoriumTransposerGUISlot2);
 			return nbt;
 		}
 
