@@ -60,10 +60,26 @@ public class MCreatorHexadoriumTransposerGUI extends Elementsgodcraft.ModElement
 			else
 				inherited = new InventoryBasic("", true, 9);
 			this.addSlotToContainer(new Slot(inherited, 0, 34, 15) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			});
 			this.addSlotToContainer(new Slot(inherited, 1, 34, 51) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(1, 0, 0);
+				}
 			});
 			this.addSlotToContainer(new Slot(inherited, 2, 130, 33) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(2, 0, 0);
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -404,5 +420,23 @@ public class MCreatorHexadoriumTransposerGUI extends Elementsgodcraft.ModElement
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				MCreatorHexadoriumTransposerGUISlot0.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				MCreatorHexadoriumTransposerGUISlot1.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				MCreatorHexadoriumTransposerGUISlot2.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

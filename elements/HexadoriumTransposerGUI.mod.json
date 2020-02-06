@@ -20,6 +20,9 @@
             "falpha": 0.0
           },
           "id": 0,
+          "onSlotChanged": {
+            "name": "HexadoriumTransposerGUISlot0"
+          },
           "name": "Slot #0",
           "x": 316,
           "y": 102
@@ -37,6 +40,9 @@
             "falpha": 0.0
           },
           "id": 1,
+          "onSlotChanged": {
+            "name": "HexadoriumTransposerGUISlot1"
+          },
           "name": "Slot #1",
           "x": 316,
           "y": 173
@@ -47,6 +53,9 @@
         "data": {
           "inventory": "inherited",
           "id": 2,
+          "onSlotChanged": {
+            "name": "HexadoriumTransposerGUISlot2"
+          },
           "name": "Slot #2",
           "x": 508,
           "y": 138
