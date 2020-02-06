@@ -1,0 +1,47 @@
+True Liberty Universal Public License - Revision 1
+
+Document created by Ragnar Whitewolf - 02/01/2020
+
+Anyone can modify this license with any name without any restriction,
+but please change the name to avoid confusion, this is not an obligation,
+is only an advice.
+
+INTRODUCTION:
+
+This license is only a way to ensure that the organized crime mafia called
+government (or state) understands that you want to leave your work completely
+free to the individuals, the only point of this license says that you can do
+anything with the project distributed without any warranty of functionality
+or safety, so go ahead with your own responsability.
+
+TERMS AND CONDITIONS:
+
+0. Liberty: The only term of this license is that you have the complete liberty
+to do anything with this project, without any restriction, also, in cosequence
+of this, you are the only one that have the responsability of use of this project,
+so, if any damage or bad use occurs, is your own responsability and not the
+creator of this project, so use it at your own risk.
+
+INTEGRATION OF THE LICENSE:
+
+You can integrate the license in your project in multiple ways, one is providing
+a copy of this document in your project, another way is introducing a dialog or
+short license text in your project, like this:
+
+	[Project name] - [Short description]
+	Created by: [Author name]
+	
+	This project are under a truly free license
+	called True Liberty Universal Public License.
+	
+	This project is distributed with the hope that
+	can be usefull, but without any warranty and
+	without any restriction, you can view the
+	complete license provided in the document
+	[Document name].
+
+  If you want a copy of the license, go to:
+  https://true-liberty.pixelreaper.top.mx/license/V1
+
+This is only an example, you can use it or use another that adjusts to the
+project.
