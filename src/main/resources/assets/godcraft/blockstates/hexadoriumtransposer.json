@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "godcraft:hexadoriumtransposer"
+    },
+    "facing=north": {
+      "model": "godcraft:hexadoriumtransposer"
+    },
+    "facing=east": {
+      "model": "godcraft:hexadoriumtransposer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "godcraft:hexadoriumtransposer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "godcraft:hexadoriumtransposer",
+      "y": 270
+    }
+  }
+}

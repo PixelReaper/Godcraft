@@ -116,11 +116,15 @@ public class Elementsgodcraft implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorHexadoriumTransposerGUI.GUIID)
+				return new MCreatorHexadoriumTransposerGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorHexadoriumTransposerGUI.GUIID)
+				return new MCreatorHexadoriumTransposerGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

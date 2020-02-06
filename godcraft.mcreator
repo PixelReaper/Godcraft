@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "GUI": 1
+  },
   "mod_elements": [
     {
       "name": "Hexadorium",
@@ -74,22 +76,6 @@
       "ids": {}
     },
     {
-      "name": "HexadoriumOreBlockDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "HexadoriumOre",
       "type": "block",
       "sortid": 7,
@@ -134,9 +120,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "HexadoriumTransposerGUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "HexadoriumTransposer",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Hexadorium_Transposer_GUI_Trigger",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HexadoriumTransposerRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "HexadoriumTransposerGUISlot0",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "HexadoriumTransposerGUISlot1",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "HexadoriumTransposerGUISlot2",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -144,6 +207,18 @@
       "item.compressedhexadorium.name": "Compressed Hexadorium",
       "item.existencegem.name": "Existence Gem",
       "item.godsmaskboots.name": "Gods Mask Boots",
+      "tile.hexadoriumtransposer.name": "Hexadorium Transposer",
+      "item.hexadorium.name": "Hexadorium",
+      "item.godsmaskbody.name": "Gods Mask Body",
+      "tile.hexadoriumore.name": "Hexadorium Ore",
+      "item.godsmasklegs.name": "Gods Mask Leggings"
+    },
+    "es_es": {
+      "item.godsmaskhelmet.name": "Mascara de los Dioses",
+      "item.compressedhexadorium.name": "Hexadorium Comprimido",
+      "item.existencegem.name": "Gema de la existencia",
+      "item.godsmaskboots.name": "Gods Mask Boots",
+      "tile.hexadoriumtransposer.name": "Hexadorium Transposer",
       "item.hexadorium.name": "Hexadorium",
       "item.godsmaskbody.name": "Gods Mask Body",
       "tile.hexadoriumore.name": "Hexadorium Ore",

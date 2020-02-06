@@ -10,8 +10,11 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.EnumParticleTypes;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.init.Blocks;
@@ -84,6 +87,11 @@ public class MCreatorHexadoriumOre extends Elementsgodcraft.ModElement {
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		}
 
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(MCreatorHexadorium.block, (int) (1)));
+		}
+
 		@SideOnly(Side.CLIENT)
 		@Override
 		public void randomDisplayTick(IBlockState state, World world, BlockPos pos, Random random) {
@@ -107,21 +115,6 @@ public class MCreatorHexadoriumOre extends Elementsgodcraft.ModElement {
 					double d5 = (random.nextFloat() - 0.5D) * 0.0999999985098839D;
 					world.spawnParticle(EnumParticleTypes.SPELL, d0, d1, d2, d3, d4, d5);
 				}
-		}
-
-		@Override
-		public boolean removedByPlayer(IBlockState state, World world, BlockPos pos, EntityPlayer entity, boolean willHarvest) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			Block block = this;
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				MCreatorHexadoriumOreBlockDestroyedByPlayer.executeProcedure($_dependencies);
-			}
-			return retval;
 		}
 	}
 }

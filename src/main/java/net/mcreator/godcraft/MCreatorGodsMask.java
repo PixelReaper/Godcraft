@@ -34,7 +34,7 @@ public class MCreatorGodsMask extends Elementsgodcraft.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("GODSMASK", "godcraft:gods_mask_armor", 25, new int[]{255, 255, 255, 255}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("GODSMASK", "godcraft:gods_mask_armor", 0, new int[]{5, 5, 5, 5}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD) {
 			@Override
