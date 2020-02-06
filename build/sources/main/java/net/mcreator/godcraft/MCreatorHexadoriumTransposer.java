@@ -78,7 +78,7 @@ public class MCreatorHexadoriumTransposer extends Elementsgodcraft.ModElement {
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(CreativeTabs.DECORATIONS);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 
