@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2020-02-07 09:52:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-02-07 09:52:01 +0100"
+    },
+    "done": false
+  }
+}

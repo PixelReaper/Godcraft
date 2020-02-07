@@ -216,12 +216,62 @@
           }
         ]
       }
+    },
+    {
+      "name": "HexaintsSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HexaintsSwordAttack",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HexaintsSwordBlade",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HexaintsSwordBladeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HexaintsSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.hexaintssword.name": "Hexaints Sword",
+      "item.hexaintsswordblade.name": "Hexaints Sword Blade",
       "item.godsmaskhelmet.name": "God\u0027s Mask",
       "item.compressedhexadorium.name": "Compressed Hexadorium",
       "item.existencegem.name": "Existence Gem",
@@ -233,6 +283,8 @@
       "item.godsmasklegs.name": "Gods Mask Leggings"
     },
     "es_es": {
+      "item.hexaintssword.name": "Hexaints Sword",
+      "item.hexaintsswordblade.name": "Hexaints Sword Blade",
       "item.godsmaskhelmet.name": "Mascara de los Dioses",
       "item.compressedhexadorium.name": "Hexadorium Comprimido",
       "item.existencegem.name": "Gema de la existencia",
