@@ -60,6 +60,20 @@
           "x": 508,
           "y": 138
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "TRANSPOSE",
+          "onClick": {
+            "name": "HexadoriumTransposerGUISlot2"
+          },
+          "width": 180,
+          "height": 40,
+          "name": "TRANSPOSE",
+          "x": 407,
+          "y": 192
+        }
       }
     ],
     "inventories": []

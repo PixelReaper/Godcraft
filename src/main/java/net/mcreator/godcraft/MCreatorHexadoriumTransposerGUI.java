@@ -296,6 +296,7 @@ public class MCreatorHexadoriumTransposerGUI extends Elementsgodcraft.ModElement
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 78, this.guiTop + 59, 90, 20, "TRANSPOSE"));
 		}
 
 		@Override
@@ -413,6 +414,13 @@ public class MCreatorHexadoriumTransposerGUI extends Elementsgodcraft.ModElement
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("guiinventory", guiinventory);
+				MCreatorHexadoriumTransposerGUISlot2.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
@@ -435,6 +443,7 @@ public class MCreatorHexadoriumTransposerGUI extends Elementsgodcraft.ModElement
 		if (slotID == 2 && changeType == 0) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("guiinventory", guiinventory);
 				MCreatorHexadoriumTransposerGUISlot2.executeProcedure($_dependencies);
 			}
 		}
