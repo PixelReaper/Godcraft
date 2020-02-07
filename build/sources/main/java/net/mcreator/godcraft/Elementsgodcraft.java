@@ -118,6 +118,8 @@ public class Elementsgodcraft implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorHexadoriumTransposerGUI.GUIID)
 				return new MCreatorHexadoriumTransposerGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == MCreatorDeathNoteGUI.GUIID)
+				return new MCreatorDeathNoteGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -125,6 +127,8 @@ public class Elementsgodcraft implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorHexadoriumTransposerGUI.GUIID)
 				return new MCreatorHexadoriumTransposerGUI.GuiWindow(world, x, y, z, player);
+			if (id == MCreatorDeathNoteGUI.GUIID)
+				return new MCreatorDeathNoteGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

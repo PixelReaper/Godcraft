@@ -1,0 +1,43 @@
+{
+  "group": "godcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "godcraft:compressedhexadorium"
+    },
+    "2": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "3": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "4": {
+      "item": "minecraft:dye",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "6": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "7": {
+      "item": "godcraft:hexadorium"
+    },
+    "8": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "godcraft:blackskin",
+    "count": 1
+  }
+}

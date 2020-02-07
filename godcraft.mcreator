@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 1
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -264,36 +264,152 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DeathNoteGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "DeathNoteKill",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guiinventory",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathNoteRightClickedInAir",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathNote",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GodsToiletPaper",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackSkin",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GodsToiletPaperRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackSkinRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DeathNoteRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.existencegem.name": "Existence Gem",
+      "item.godstoiletpaper.name": "God\u0027s Toilet Paper",
+      "item.godsmaskbody.name": "",
       "item.hexaintssword.name": "Hexaints Sword",
       "item.hexaintsswordblade.name": "Hexaints Sword Blade",
       "item.godsmaskhelmet.name": "God\u0027s Mask",
       "item.compressedhexadorium.name": "Compressed Hexadorium",
-      "item.existencegem.name": "Existence Gem",
-      "item.godsmaskboots.name": "Gods Mask Boots",
+      "item.godsmaskboots.name": "",
       "tile.hexadoriumtransposer.name": "Hexadorium Transposer",
+      "item.deathnote.name": "Death Note",
       "item.hexadorium.name": "Hexadorium",
-      "item.godsmaskbody.name": "Gods Mask Body",
       "tile.hexadoriumore.name": "Hexadorium Ore",
-      "item.godsmasklegs.name": "Gods Mask Leggings"
+      "item.godsmasklegs.name": "",
+      "item.blackskin.name": "Black Skin"
     },
     "es_es": {
-      "item.hexaintssword.name": "Hexaints Sword",
-      "item.hexaintsswordblade.name": "Hexaints Sword Blade",
+      "item.existencegem.name": "Gema de la existencia",
+      "item.godstoiletpaper.name": "God\u0027s Toilet Paper",
+      "item.godsmaskbody.name": "",
+      "item.hexaintssword.name": "Espada de Hexaints",
+      "item.hexaintsswordblade.name": "Hoja de la espada de Hexaints",
       "item.godsmaskhelmet.name": "Mascara de los Dioses",
       "item.compressedhexadorium.name": "Hexadorium Comprimido",
-      "item.existencegem.name": "Gema de la existencia",
-      "item.godsmaskboots.name": "Gods Mask Boots",
-      "tile.hexadoriumtransposer.name": "Hexadorium Transposer",
+      "item.godsmaskboots.name": "",
+      "tile.hexadoriumtransposer.name": "Transformador de Hexadorium",
+      "item.deathnote.name": "Death Note",
       "item.hexadorium.name": "Hexadorium",
-      "item.godsmaskbody.name": "Gods Mask Body",
-      "tile.hexadoriumore.name": "Hexadorium Ore",
-      "item.godsmasklegs.name": "Gods Mask Leggings"
+      "tile.hexadoriumore.name": "Mena de Hexadorium",
+      "item.godsmasklegs.name": "",
+      "item.blackskin.name": "Black Skin"
     }
   },
   "workspaceSettings": {

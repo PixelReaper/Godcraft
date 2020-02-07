@@ -1,7 +1,7 @@
 Unsupposrted library path: C:\Users\SM2-1a-19\Desktop\Godcraft\build\classes\java\api
 Unsupposrted library path: C:\Users\SM2-1a-19\Desktop\Godcraft\build\resources\api
 Symbol range map extraction starting
-Processing 23 files
+Processing 29 files
 startProcessing "net/mcreator/godcraft/ClientProxygodcraft.java" md5: a00cfca53e807af4108570499f0e3eb1
 @|net/mcreator/godcraft/ClientProxygodcraft.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
 Class Start: net.mcreator.godcraft.ClientProxygodcraft
@@ -37,7 +37,7 @@ Class Start: net.mcreator.godcraft.ClientProxygodcraft
 Class End  : net.mcreator.godcraft.ClientProxygodcraft
 endProcessing "net/mcreator/godcraft/ClientProxygodcraft.java"
 
-startProcessing "net/mcreator/godcraft/Elementsgodcraft.java" md5: 3e312ac96d38a2ebe1e3b1379dc9c843
+startProcessing "net/mcreator/godcraft/Elementsgodcraft.java" md5: 549ab84edf08344b5f7113f2a13d0c3f
 @|net/mcreator/godcraft/Elementsgodcraft.java|128|149|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
 Class Start: net.mcreator.godcraft.Elementsgodcraft
    @|net/mcreator/godcraft/Elementsgodcraft.java|1739|1755|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
@@ -276,145 +276,163 @@ Class Start: net.mcreator.godcraft.Elementsgodcraft
          @|net/mcreator/godcraft/Elementsgodcraft.java|5245|5246|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
          @|net/mcreator/godcraft/Elementsgodcraft.java|5248|5249|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
          @|net/mcreator/godcraft/Elementsgodcraft.java|5251|5257|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5268|5270|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5274|5294|MCreatorDeathNoteGUI|class|net.mcreator.godcraft.MCreatorDeathNoteGUI|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5295|5300|GUIID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|GUIID
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5318|5354|MCreatorDeathNoteGUI.GuiContainerMod|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5355|5360|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5362|5363|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5365|5366|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5368|5369|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5371|5377|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
       Method End: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
       Method Start: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5338|5340|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5355|5361|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5369|5374|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5380|5381|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5387|5388|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5394|5395|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5288|5296|Override|class|java.lang.Override|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5307|5313|Object|class|java.lang.Object|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5314|5333|getClientGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5342|5354|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5363|5368|World|class|net.minecraft.world.World|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5407|5409|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5413|5444|MCreatorHexadoriumTransposerGUI|class|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5445|5450|GUIID|field|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI|GUIID
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5468|5509|MCreatorHexadoriumTransposerGUI.GuiWindow|class|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI.GuiWindow|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5510|5515|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5517|5518|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5520|5521|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5523|5524|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
-         @|net/mcreator/godcraft/Elementsgodcraft.java|5526|5532|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5458|5460|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5475|5481|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5489|5494|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5500|5501|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5507|5508|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5514|5515|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5408|5416|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5427|5433|Object|class|java.lang.Object|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5434|5453|getClientGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5462|5474|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5483|5488|World|class|net.minecraft.world.World|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5527|5529|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5533|5564|MCreatorHexadoriumTransposerGUI|class|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5565|5570|GUIID|field|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI|GUIID
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5588|5629|MCreatorHexadoriumTransposerGUI.GuiWindow|class|net.mcreator.godcraft.MCreatorHexadoriumTransposerGUI.GuiWindow|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5630|5635|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5637|5638|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5640|5641|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5643|5644|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5646|5652|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5663|5665|id|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|id|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5669|5689|MCreatorDeathNoteGUI|class|net.mcreator.godcraft.MCreatorDeathNoteGUI|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5690|5695|GUIID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|GUIID
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5713|5743|MCreatorDeathNoteGUI.GuiWindow|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5744|5749|world|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5751|5752|x|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5754|5755|y|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5757|5758|z|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+         @|net/mcreator/godcraft/Elementsgodcraft.java|5760|5766|player|param|net.mcreator.godcraft.Elementsgodcraft.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
       Method End: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
    Class End  : net.mcreator.godcraft.Elementsgodcraft.GuiHandler
    Method Start: getElements()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5572|5576|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5577|5587|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5589|5600|getElements|method|net.mcreator.godcraft.Elementsgodcraft|getElements|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5615|5623|elements|field|net.mcreator.godcraft.Elementsgodcraft|elements
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5806|5810|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5811|5821|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5823|5834|getElements|method|net.mcreator.godcraft.Elementsgodcraft|getElements|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5849|5857|elements|field|net.mcreator.godcraft.Elementsgodcraft|elements
    Method End: getElements()Ljava/util/List;
    Method Start: getBlocks()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5640|5644|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5645|5653|Supplier|class|java.util.function.Supplier|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5654|5659|Block|class|net.minecraft.block.Block|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5662|5671|getBlocks|method|net.mcreator.godcraft.Elementsgodcraft|getBlocks|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5686|5692|blocks|field|net.mcreator.godcraft.Elementsgodcraft|blocks
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5874|5878|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5879|5887|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5888|5893|Block|class|net.minecraft.block.Block|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5896|5905|getBlocks|method|net.mcreator.godcraft.Elementsgodcraft|getBlocks|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5920|5926|blocks|field|net.mcreator.godcraft.Elementsgodcraft|blocks
    Method End: getBlocks()Ljava/util/List;
    Method Start: getItems()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5709|5713|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5714|5722|Supplier|class|java.util.function.Supplier|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5723|5727|Item|class|net.minecraft.item.Item|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5730|5738|getItems|method|net.mcreator.godcraft.Elementsgodcraft|getItems|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5753|5758|items|field|net.mcreator.godcraft.Elementsgodcraft|items
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5943|5947|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5948|5956|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5957|5961|Item|class|net.minecraft.item.Item|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5964|5972|getItems|method|net.mcreator.godcraft.Elementsgodcraft|getItems|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|5987|5992|items|field|net.mcreator.godcraft.Elementsgodcraft|items
    Method End: getItems()Ljava/util/List;
    Method Start: getBiomes()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5775|5779|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5780|5788|Supplier|class|java.util.function.Supplier|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5789|5794|Biome|class|net.minecraft.world.biome.Biome|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5797|5806|getBiomes|method|net.mcreator.godcraft.Elementsgodcraft|getBiomes|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5821|5827|biomes|field|net.mcreator.godcraft.Elementsgodcraft|biomes
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6009|6013|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6014|6022|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6023|6028|Biome|class|net.minecraft.world.biome.Biome|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6031|6040|getBiomes|method|net.mcreator.godcraft.Elementsgodcraft|getBiomes|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6055|6061|biomes|field|net.mcreator.godcraft.Elementsgodcraft|biomes
    Method End: getBiomes()Ljava/util/List;
    Method Start: getEntities()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5844|5848|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5849|5857|Supplier|class|java.util.function.Supplier|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5858|5869|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5872|5883|getEntities|method|net.mcreator.godcraft.Elementsgodcraft|getEntities|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5898|5906|entities|field|net.mcreator.godcraft.Elementsgodcraft|entities
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6078|6082|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6083|6091|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6092|6103|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6106|6117|getEntities|method|net.mcreator.godcraft.Elementsgodcraft|getEntities|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6132|6140|entities|field|net.mcreator.godcraft.Elementsgodcraft|entities
    Method End: getEntities()Ljava/util/List;
    Method Start: getPotions()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5923|5927|List|class|java.util.List|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5928|5936|Supplier|class|java.util.function.Supplier|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5937|5943|Potion|class|net.minecraft.potion.Potion|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5946|5956|getPotions|method|net.mcreator.godcraft.Elementsgodcraft|getPotions|()Ljava/util/List;
-      @|net/mcreator/godcraft/Elementsgodcraft.java|5971|5978|potions|field|net.mcreator.godcraft.Elementsgodcraft|potions
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6157|6161|List|class|java.util.List|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6162|6170|Supplier|class|java.util.function.Supplier|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6171|6177|Potion|class|net.minecraft.potion.Potion|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6180|6190|getPotions|method|net.mcreator.godcraft.Elementsgodcraft|getPotions|()Ljava/util/List;
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6205|6212|potions|field|net.mcreator.godcraft.Elementsgodcraft|potions
    Method End: getPotions()Ljava/util/List;
    Class Start: net.mcreator.godcraft.Elementsgodcraft.ModElement
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6008|6018|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6030|6040|Comparable|class|java.lang.Comparable|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6041|6051|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6242|6252|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6264|6274|Comparable|class|java.lang.Comparable|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6275|6285|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
       Annotation Start: net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6059|6068|Retention|class|java.lang.annotation.Retention|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6069|6084|RetentionPolicy|class|java.lang.annotation.RetentionPolicy|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6085|6092|RUNTIME|field|java.lang.annotation.RetentionPolicy|RUNTIME
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6115|6118|Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6293|6302|Retention|class|java.lang.annotation.Retention|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6303|6318|RetentionPolicy|class|java.lang.annotation.RetentionPolicy|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6319|6326|RUNTIME|field|java.lang.annotation.RetentionPolicy|RUNTIME
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6349|6352|Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
          Annotation End  : net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6145|6161|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6145|6161|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6162|6170|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements|
-      @|net/mcreator/godcraft/Elementsgodcraft.java|6195|6201|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid|
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6379|6395|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6379|6395|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6396|6404|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements|
+      @|net/mcreator/godcraft/Elementsgodcraft.java|6429|6435|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid|
       Method Start: ModElement(Lnet/mcreator/godcraft/Elementsgodcraft;I)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6243|6251|elements|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|elements|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6257|6263|sortid|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|sortid|1
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6215|6225|ModElement|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6226|6242|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6276|6284|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6287|6295|elements|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|elements|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6306|6312|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6315|6321|sortid|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|sortid|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6477|6485|elements|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|elements|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6491|6497|sortid|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|sortid|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6449|6459|ModElement|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6460|6476|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6510|6518|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6521|6529|elements|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|elements|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6540|6546|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6549|6555|sortid|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|ModElement|(Lnet/mcreator/godcraft/Elementsgodcraft;I)V|sortid|1
       Method End: ModElement(Lnet/mcreator/godcraft/Elementsgodcraft;I)V
       Method Start: initElements()V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6345|6357|initElements|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|initElements|()V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6579|6591|initElements|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|initElements|()V
       Method End: initElements()V
       Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6412|6417|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6384|6388|init|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6389|6411|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6646|6651|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6618|6622|init|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6623|6645|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
       Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
       Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6477|6482|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6443|6450|preInit|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6451|6476|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6711|6716|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6677|6684|preInit|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6685|6710|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
       Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
       Method Start: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6529|6535|random|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6541|6545|posX|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posX|1
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6551|6555|posZ|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posZ|2
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6563|6568|world|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6574|6579|dimID|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6597|6599|cg|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|5
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6616|6618|cp|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|6
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6508|6521|generateWorld|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6522|6528|Random|class|java.util.Random|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6557|6562|World|class|net.minecraft.world.World|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6581|6596|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6601|6615|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6763|6769|random|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6775|6779|posX|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posX|1
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6785|6789|posZ|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|posZ|2
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6797|6802|world|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6808|6813|dimID|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6831|6833|cg|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|5
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6850|6852|cp|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|6
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6742|6755|generateWorld|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6756|6762|Random|class|java.util.Random|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6791|6796|World|class|net.minecraft.world.World|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6815|6830|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6835|6849|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
       Method End: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
       Method Start: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6678|6683|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6644|6654|serverLoad|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6655|6677|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6912|6917|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6878|6888|serverLoad|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|serverLoad|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6889|6911|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent|false
       Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
       Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6743|6748|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6709|6723|registerModels|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6724|6742|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6977|6982|event|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6943|6957|registerModels|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|net/mcreator/godcraft/Elementsgodcraft.java|6958|6976|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
       Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
       Method Start: addFuel(Lnet/minecraft/item/ItemStack;)I
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6791|6795|fuel|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I|fuel|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6773|6780|addFuel|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6781|6790|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7025|7029|fuel|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I|fuel|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7007|7014|addFuel|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|addFuel|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7015|7024|ItemStack|class|net.minecraft.item.ItemStack|false
       Method End: addFuel(Lnet/minecraft/item/ItemStack;)I
       Method Start: compareTo(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6868|6873|other|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|compareTo|(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I|other|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6824|6832|Override|class|java.lang.Override|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6847|6856|compareTo|method|java.lang.Comparable|compareTo|(Ljava/lang/Object;)I
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6857|6867|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6893|6899|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6902|6907|other|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|compareTo|(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I|other|0
-         @|net/mcreator/godcraft/Elementsgodcraft.java|6908|6914|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7102|7107|other|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|compareTo|(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I|other|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7058|7066|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7081|7090|compareTo|method|java.lang.Comparable|compareTo|(Ljava/lang/Object;)I
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7091|7101|ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7127|7133|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7136|7141|other|param|net.mcreator.godcraft.Elementsgodcraft.ModElement|compareTo|(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I|other|0
+         @|net/mcreator/godcraft/Elementsgodcraft.java|7142|7148|sortid|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|sortid
       Method End: compareTo(Lnet/mcreator/godcraft/Elementsgodcraft$ModElement;)I
    Class End  : net.mcreator.godcraft.Elementsgodcraft.ModElement
 Class End  : net.mcreator.godcraft.Elementsgodcraft
@@ -446,6 +464,78 @@ Class Start: net.mcreator.godcraft.IProxygodcraft
    Method End: serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
 Class End  : net.mcreator.godcraft.IProxygodcraft
 endProcessing "net/mcreator/godcraft/IProxygodcraft.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorBlackSkin.java" md5: 4c4933dc15daa5aa3777f53f03396c64
+@|net/mcreator/godcraft/MCreatorBlackSkin.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorBlackSkin
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|552|583|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|598|615|MCreatorBlackSkin|class|net.mcreator.godcraft.MCreatorBlackSkin|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|624|651|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|727|731|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|657|682|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|727|731|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorBlackSkin.java|732|737|block|field|net.mcreator.godcraft.MCreatorBlackSkin|block|
+   Method Start: MCreatorBlackSkin(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|792|800|instance|param|net.mcreator.godcraft.MCreatorBlackSkin|MCreatorBlackSkin|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|757|774|MCreatorBlackSkin|method|net.mcreator.godcraft.MCreatorBlackSkin|MCreatorBlackSkin|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|775|791|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|813|821|instance|param|net.mcreator.godcraft.MCreatorBlackSkin|MCreatorBlackSkin|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorBlackSkin(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: initElements()V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|837|845|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|860|872|initElements|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|initElements|()V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|880|888|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|889|894|items|field|net.mcreator.godcraft.Elementsgodcraft|items
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|895|898|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|909|919|ItemCustom|class|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1015|1020|event|param|net.mcreator.godcraft.MCreatorBlackSkin|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|933|941|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|942|946|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|947|953|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|958|966|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|981|995|registerModels|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|996|1014|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1027|1038|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1039|1069|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1070|1075|block|field|net.mcreator.godcraft.MCreatorBlackSkin|block
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1084|1105|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1171|1181|ItemCustom|class|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|false
+      @|net/mcreator/godcraft/MCreatorBlackSkin.java|1190|1194|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1207|1217|ItemCustom|method|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|ItemCustom|()V
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1226|1238|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1247|1259|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1270|1288|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1307|1322|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1341|1355|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1356|1368|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1369|1378|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1392|1400|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1415|1436|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1521|1530|itemstack|param|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1466|1474|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1489|1510|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1511|1520|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1610|1623|par1ItemStack|param|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1637|1646|par2Block|param|net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1559|1567|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1584|1599|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1600|1609|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorBlackSkin.java|1625|1636|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.godcraft.MCreatorBlackSkin.ItemCustom
+Class End  : net.mcreator.godcraft.MCreatorBlackSkin
+endProcessing "net/mcreator/godcraft/MCreatorBlackSkin.java"
 
 startProcessing "net/mcreator/godcraft/MCreatorCompressedHexadorium.java" md5: 0f134a7ce13140bde466753cbac4aa93
 @|net/mcreator/godcraft/MCreatorCompressedHexadorium.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
@@ -552,6 +642,857 @@ Class Start: net.mcreator.godcraft.MCreatorCompressedHexadorium
    Class End  : net.mcreator.godcraft.MCreatorCompressedHexadorium.ItemCustom
 Class End  : net.mcreator.godcraft.MCreatorCompressedHexadorium
 endProcessing "net/mcreator/godcraft/MCreatorCompressedHexadorium.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorDeathNote.java" md5: f2ecff8d593842d4f103accfb0307937
+@|net/mcreator/godcraft/MCreatorDeathNote.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorDeathNote
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|715|746|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|761|778|MCreatorDeathNote|class|net.mcreator.godcraft.MCreatorDeathNote|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|787|814|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|890|894|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|820|845|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|890|894|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorDeathNote.java|895|900|block|field|net.mcreator.godcraft.MCreatorDeathNote|block|
+   Method Start: MCreatorDeathNote(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|955|963|instance|param|net.mcreator.godcraft.MCreatorDeathNote|MCreatorDeathNote|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|920|937|MCreatorDeathNote|method|net.mcreator.godcraft.MCreatorDeathNote|MCreatorDeathNote|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|938|954|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|976|984|instance|param|net.mcreator.godcraft.MCreatorDeathNote|MCreatorDeathNote|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorDeathNote(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: initElements()V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1000|1008|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1023|1035|initElements|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|initElements|()V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1043|1051|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1052|1057|items|field|net.mcreator.godcraft.Elementsgodcraft|items
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1058|1061|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1072|1082|ItemCustom|class|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1178|1183|event|param|net.mcreator.godcraft.MCreatorDeathNote|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1096|1104|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1105|1109|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1110|1116|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1121|1129|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1144|1158|registerModels|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1159|1177|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1190|1201|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1202|1232|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1233|1238|block|field|net.mcreator.godcraft.MCreatorDeathNote|block
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1247|1268|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.godcraft.MCreatorDeathNote.ItemCustom
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1334|1344|ItemCustom|class|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|false
+      @|net/mcreator/godcraft/MCreatorDeathNote.java|1353|1357|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1370|1380|ItemCustom|method|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|ItemCustom|()V
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1389|1401|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1410|1422|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1432|1450|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1469|1484|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1503|1517|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1518|1530|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1531|1537|COMBAT|field|net.minecraft.creativetab.CreativeTabs|COMBAT
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1551|1559|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1574|1595|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1680|1689|itemstack|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1625|1633|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1648|1669|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1670|1679|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1770|1783|par1ItemStack|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1797|1806|par2Block|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1719|1727|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1744|1759|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1760|1769|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1785|1796|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1902|1907|world|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1922|1928|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1939|1943|hand|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1836|1844|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1855|1867|ActionResult|class|net.minecraft.util.ActionResult|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1868|1877|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1879|1895|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1896|1901|World|class|net.minecraft.world.World|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1909|1921|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1930|1938|EnumHand|class|net.minecraft.util.EnumHand|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1951|1963|ActionResult|class|net.minecraft.util.ActionResult|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1964|1973|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|1986|2002|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2003|2008|world|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2010|2016|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2018|2022|hand|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2029|2038|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2054|2063|getResult|method|net.minecraft.util.ActionResult|getResult|()Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2085|2091|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2092|2096|posX|field|net.minecraft.entity.Entity|posX
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2116|2122|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2123|2127|posY|field|net.minecraft.entity.Entity|posY
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2147|2153|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2154|2158|posZ|field|net.minecraft.entity.Entity|posZ
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2171|2188|java.util.HashMap|class|java.util.HashMap|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2189|2195|String|class|java.lang.String|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2197|2203|Object|class|java.lang.Object|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2226|2243|java.util.HashMap|class|java.util.HashMap|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2269|2272|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2283|2289|entity|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2312|2315|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2345|2348|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2378|2381|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2411|2414|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2424|2429|world|param|net.mcreator.godcraft.MCreatorDeathNote.ItemCustom|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2437|2471|MCreatorDeathNoteRightClickedInAir|class|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|false
+         @|net/mcreator/godcraft/MCreatorDeathNote.java|2472|2488|executeProcedure|method|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V
+      Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+   Class End  : net.mcreator.godcraft.MCreatorDeathNote.ItemCustom
+Class End  : net.mcreator.godcraft.MCreatorDeathNote
+endProcessing "net/mcreator/godcraft/MCreatorDeathNote.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorDeathNoteGUI.java" md5: 4ecf96b597b99df87c78af278ff7c552
+@|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|937|968|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|983|1003|MCreatorDeathNoteGUI|class|net.mcreator.godcraft.MCreatorDeathNoteGUI|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1012|1039|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1062|1067|GUIID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|GUIID|
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1089|1096|HashMap|class|java.util.HashMap|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1089|1096|HashMap|class|java.util.HashMap|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1097|1109|guiinventory|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|guiinventory|
+   @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1116|1123|HashMap|class|java.util.HashMap|false
+   Method Start: MCreatorDeathNoteGUI(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1176|1184|instance|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|MCreatorDeathNoteGUI|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1138|1158|MCreatorDeathNoteGUI|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|MCreatorDeathNoteGUI|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1159|1175|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1197|1205|instance|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|MCreatorDeathNoteGUI|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorDeathNoteGUI(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1278|1283|event|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1221|1229|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1244|1251|preInit|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1252|1277|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1290|1298|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1299|1316|addNetworkMessage|method|net.mcreator.godcraft.Elementsgodcraft|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1317|1347|GUIButtonPressedMessageHandler|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1355|1378|GUIButtonPressedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1386|1390|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1391|1397|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1403|1411|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1412|1429|addNetworkMessage|method|net.mcreator.godcraft.Elementsgodcraft|addNetworkMessage|(Ljava/lang/Class;Ljava/lang/Class;[Lnet/minecraftforge/fml/relauncher/Side;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1430|1458|GUISlotChangedMessageHandler|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1466|1487|GUISlotChangedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1495|1499|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1500|1506|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1537|1552|GuiContainerMod|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1561|1570|Container|class|net.minecraft.inventory.Container|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1576|1581|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1576|1581|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1582|1587|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|world|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1592|1604|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1592|1604|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1605|1611|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|entity|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1620|1621|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|x|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1623|1624|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|y|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1626|1627|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|z|
+      Method Start: GuiContainerMod(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1663|1668|world|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1674|1675|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1681|1682|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1688|1689|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1704|1710|player|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|player|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1641|1656|GuiContainerMod|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1657|1662|World|class|net.minecraft.world.World|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1691|1703|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1723|1728|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|world
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1731|1736|world|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1747|1753|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|entity
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1756|1762|player|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|player|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1773|1774|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1777|1778|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1789|1790|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1793|1794|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1805|1806|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1809|1810|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|GuiContainerMod|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|z|3
+      Method End: GuiContainerMod(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+      Method Start: canInteractWith(Lnet/minecraft/entity/player/EntityPlayer;)Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1879|1885|player|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z|player|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1823|1831|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1850|1865|canInteractWith|method|net.minecraft.inventory.Container|canInteractWith|(Lnet/minecraft/entity/player/EntityPlayer;)Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1866|1878|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      Method End: canInteractWith(Lnet/minecraft/entity/player/EntityPlayer;)Z
+      Method Start: onContainerClosed(Lnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1972|1980|playerIn|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1917|1925|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1941|1958|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1959|1971|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|1994|2011|onContainerClosed|method|net.minecraft.inventory.Container|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2012|2020|playerIn|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|onContainerClosed|(Lnet/minecraft/entity/player/EntityPlayer;)V|playerIn|0
+      Method End: onContainerClosed(Lnet/minecraft/entity/player/EntityPlayer;)V
+      Method Start: slotChanged(III)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2062|2068|slotid|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|slotid|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2074|2079|ctype|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|ctype|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2085|2089|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|meta|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2046|2057|slotChanged|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2106|2111|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|world
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2128|2133|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|world
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2134|2142|isRemote|field|net.minecraft.world.World|isRemote
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2151|2159|godcraft|class|net.mcreator.godcraft.godcraft|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2160|2174|PACKET_HANDLER|field|net.mcreator.godcraft.godcraft|PACKET_HANDLER
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2175|2187|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2192|2213|GUISlotChangedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2214|2220|slotid|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|slotid|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2222|2223|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2225|2226|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2228|2229|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2231|2236|ctype|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|ctype|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2238|2242|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|meta|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2251|2267|handleSlotAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2268|2274|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|entity
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2276|2282|slotid|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|slotid|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2284|2289|ctype|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|ctype|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2291|2295|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|slotChanged|(III)V|meta|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2297|2298|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2300|2301|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2303|2304|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|z
+      Method End: slotChanged(III)V
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2346|2355|GuiWindow|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2364|2376|GuiContainer|class|net.minecraft.client.gui.inventory.GuiContainer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2382|2387|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2382|2387|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2388|2393|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|world|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2402|2403|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|x|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2405|2406|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|y|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2408|2409|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|z|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2414|2426|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2414|2426|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2427|2433|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|entity|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2438|2450|GuiTextField|class|net.minecraft.client.gui.GuiTextField|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2438|2450|GuiTextField|class|net.minecraft.client.gui.GuiTextField|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2451|2457|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player|
+      Method Start: GuiWindow(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2487|2492|world|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2498|2499|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2505|2506|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2512|2513|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2528|2534|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|entity|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2471|2480|GuiWindow|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2481|2486|World|class|net.minecraft.world.World|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2515|2527|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2552|2567|GuiContainerMod|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiContainerMod|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2568|2573|world|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2575|2576|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2578|2579|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2581|2582|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2584|2590|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|entity|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2603|2608|world|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|world
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2611|2616|world|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|world|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2627|2628|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2631|2632|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2643|2644|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2647|2648|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2659|2660|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2663|2664|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2675|2681|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|entity
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2684|2690|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|GuiWindow|(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V|entity|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2701|2706|xSize|field|net.minecraft.client.gui.inventory.GuiContainer|xSize
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2723|2728|ySize|field|net.minecraft.client.gui.inventory.GuiContainer|ySize
+      Method End: GuiWindow(Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2765|2781|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2765|2781|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2782|2789|texture|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|texture|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2796|2812|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      Method Start: drawScreen(IIF)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2897|2903|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2909|2915|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseY|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2923|2935|partialTicks|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|partialTicks|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2858|2866|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2882|2892|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2948|2969|drawDefaultBackground|method|net.minecraft.client.gui.GuiScreen|drawDefaultBackground|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2983|2993|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|2994|3000|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3002|3008|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseY|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3010|3022|partialTicks|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|partialTicks|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3034|3054|renderHoveredToolTip|method|net.minecraft.client.gui.inventory.GuiContainer|renderHoveredToolTip|(II)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3055|3061|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3063|3069|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawScreen|(IIF)V|mouseY|1
+      Method End: drawScreen(IIF)V
+      Method Start: drawGuiContainerBackgroundLayer(FII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3148|3152|par1|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawGuiContainerBackgroundLayer|(FII)V|par1|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3158|3162|par2|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawGuiContainerBackgroundLayer|(FII)V|par2|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3168|3172|par3|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawGuiContainerBackgroundLayer|(FII)V|par3|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3083|3091|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3110|3141|drawGuiContainerBackgroundLayer|method|net.minecraft.client.gui.inventory.GuiContainer|drawGuiContainerBackgroundLayer|(FII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3180|3184|GL11|class|org.lwjgl.opengl.GL11|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3185|3194|glColor4f|method|org.lwjgl.opengl.GL11|glColor4f|(FFFF)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3229|3231|mc|field|net.minecraft.client.gui.GuiScreen|mc
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3232|3244|renderEngine|field|net.minecraft.client.Minecraft|renderEngine
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3245|3256|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3257|3264|texture|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|texture
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3285|3290|width|field|net.minecraft.client.gui.GuiScreen|width
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3298|3303|xSize|field|net.minecraft.client.gui.inventory.GuiContainer|xSize
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3328|3334|height|field|net.minecraft.client.gui.GuiScreen|height
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3342|3347|ySize|field|net.minecraft.client.gui.inventory.GuiContainer|ySize
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3363|3384|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3402|3407|xSize|field|net.minecraft.client.gui.inventory.GuiContainer|xSize
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3414|3419|ySize|field|net.minecraft.client.gui.inventory.GuiContainer|ySize
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3426|3432|zLevel|field|net.minecraft.client.gui.Gui|zLevel
+      Method End: drawGuiContainerBackgroundLayer(FII)V
+      Method Start: updateScreen()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3454|3462|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3478|3490|updateScreen|method|net.minecraft.client.gui.GuiScreen|updateScreen|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3505|3517|updateScreen|method|net.minecraft.client.gui.GuiScreen|updateScreen|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3525|3531|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3532|3551|updateCursorCounter|method|net.minecraft.client.gui.GuiTextField|updateCursorCounter|()V
+      Method End: updateScreen()V
+      Method Start: mouseClicked(III)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3610|3616|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3622|3628|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseY|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3634|3645|mouseButton|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseButton|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3566|3574|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3593|3605|mouseClicked|method|net.minecraft.client.gui.GuiScreen|mouseClicked|(III)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3654|3665|IOException|class|java.io.IOException|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3672|3678|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3679|3691|mouseClicked|method|net.minecraft.client.gui.GuiTextField|mouseClicked|(III)Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3692|3698|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3701|3708|guiLeft|field|net.minecraft.client.gui.inventory.GuiContainer|guiLeft
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3710|3716|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseY|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3719|3725|guiTop|field|net.minecraft.client.gui.inventory.GuiContainer|guiTop
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3727|3738|mouseButton|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseButton|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3751|3763|mouseClicked|method|net.minecraft.client.gui.GuiScreen|mouseClicked|(III)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3764|3770|mouseX|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseX|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3772|3778|mouseY|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseY|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3780|3791|mouseButton|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|mouseClicked|(III)V|mouseButton|2
+      Method End: mouseClicked(III)V
+      Method Start: keyTyped(CI)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3846|3855|typedChar|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|typedChar|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3861|3868|keyCode|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|keyCode|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3805|3813|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3832|3840|keyTyped|method|net.minecraft.client.gui.GuiScreen|keyTyped|(CI)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3877|3888|IOException|class|java.io.IOException|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3895|3901|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3902|3917|textboxKeyTyped|method|net.minecraft.client.gui.GuiTextField|textboxKeyTyped|(CI)Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3918|3927|typedChar|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|typedChar|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3929|3936|keyCode|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|keyCode|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3947|3953|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3954|3963|isFocused|method|net.minecraft.client.gui.GuiTextField|isFocused|()Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3990|3998|keyTyped|method|net.minecraft.client.gui.GuiScreen|keyTyped|(CI)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|3999|4008|typedChar|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|typedChar|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4010|4017|keyCode|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|keyTyped|(CI)V|keyCode|1
+      Method End: keyTyped(CI)V
+      Method Start: drawGuiContainerForegroundLayer(II)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4094|4098|par1|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawGuiContainerForegroundLayer|(II)V|par1|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4104|4108|par2|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|drawGuiContainerForegroundLayer|(II)V|par2|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4031|4039|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4058|4089|drawGuiContainerForegroundLayer|method|net.minecraft.client.gui.inventory.GuiContainer|drawGuiContainerForegroundLayer|(II)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4116|4122|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4123|4134|drawTextBox|method|net.minecraft.client.gui.GuiTextField|drawTextBox|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4147|4159|fontRenderer|field|net.minecraft.client.gui.GuiScreen|fontRenderer
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4160|4170|drawString|method|net.minecraft.client.gui.FontRenderer|drawString|(Ljava/lang/String;III)I
+      Method End: drawGuiContainerForegroundLayer(II)V
+      Method Start: onGuiClosed()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4211|4219|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4235|4246|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4261|4272|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4280|4288|Keyboard|class|org.lwjgl.input.Keyboard|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4289|4307|enableRepeatEvents|method|org.lwjgl.input.Keyboard|enableRepeatEvents|(Z)V
+      Method End: onGuiClosed()V
+      Method Start: initGui()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4327|4335|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4351|4358|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4373|4380|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4393|4400|guiLeft|field|net.minecraft.client.gui.inventory.GuiContainer|guiLeft
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4409|4414|width|field|net.minecraft.client.gui.GuiScreen|width
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4436|4442|guiTop|field|net.minecraft.client.gui.inventory.GuiContainer|guiTop
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4451|4457|height|field|net.minecraft.client.gui.GuiScreen|height
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4474|4482|Keyboard|class|org.lwjgl.input.Keyboard|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4483|4501|enableRepeatEvents|method|org.lwjgl.input.Keyboard|enableRepeatEvents|(Z)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4518|4528|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4529|4534|clear|method|java.util.Collection|clear|()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4542|4548|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4555|4567|GuiTextField|class|net.minecraft.client.gui.GuiTextField|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4576|4588|fontRenderer|field|net.minecraft.client.gui.GuiScreen|fontRenderer
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4612|4624|guiinventory|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|guiinventory
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4625|4628|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4644|4650|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4657|4663|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4664|4682|setMaxStringLength|method|net.minecraft.client.gui.GuiTextField|setMaxStringLength|(I)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4695|4701|Player|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|Player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4702|4709|setText|method|net.minecraft.client.gui.GuiTextField|setText|(Ljava/lang/String;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4724|4734|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4735|4738|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4743|4752|GuiButton|class|net.minecraft.client.gui.GuiButton|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4761|4768|guiLeft|field|net.minecraft.client.gui.inventory.GuiContainer|guiLeft
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4780|4786|guiTop|field|net.minecraft.client.gui.inventory.GuiContainer|guiTop
+      Method End: initGui()V
+      Method Start: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4876|4882|button|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4823|4831|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4850|4865|actionPerformed|method|net.minecraft.client.gui.GuiScreen|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4866|4875|GuiButton|class|net.minecraft.client.gui.GuiButton|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4890|4898|godcraft|class|net.mcreator.godcraft.godcraft|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4899|4913|PACKET_HANDLER|field|net.mcreator.godcraft.godcraft|PACKET_HANDLER
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4914|4926|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4931|4954|GUIButtonPressedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4955|4961|button|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4962|4964|id|field|net.minecraft.client.gui.GuiButton|id
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4966|4967|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4969|4970|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4972|4973|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|4981|4999|handleButtonAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5000|5006|entity|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|entity
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5008|5014|button|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5015|5017|id|field|net.minecraft.client.gui.GuiButton|id
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5019|5020|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5022|5023|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5025|5026|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow|z
+      Method End: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+      Method Start: doesGuiPauseGame()Z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5040|5048|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5067|5083|doesGuiPauseGame|method|net.minecraft.client.gui.GuiScreen|doesGuiPauseGame|()Z
+      Method End: doesGuiPauseGame()Z
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GuiWindow
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5139|5169|GUIButtonPressedMessageHandler|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5181|5196|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5197|5220|GUIButtonPressedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5222|5230|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      Method Start: onMessage(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5300|5307|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5324|5331|context|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5238|5246|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5257|5265|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5266|5275|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5276|5299|GUIButtonPressedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5309|5323|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5339|5353|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5363|5370|context|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5371|5387|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5390|5396|player|field|net.minecraft.network.NetHandlerPlayServer|player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5409|5423|getServerWorld|method|net.minecraft.entity.player.EntityPlayerMP|getServerWorld|()Lnet/minecraft/world/WorldServer;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5426|5442|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5471|5478|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5479|5487|buttonID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|buttonID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5502|5509|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5510|5511|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5526|5533|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5534|5535|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5550|5557|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5558|5559|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5566|5584|handleButtonAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+      Method End: onMessage(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUIButtonPressedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessageHandler
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5671|5699|GUISlotChangedMessageHandler|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5711|5726|IMessageHandler|class|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5727|5748|GUISlotChangedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5750|5758|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      Method Start: onMessage(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5826|5833|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5850|5857|context|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5766|5774|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5785|5793|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5794|5803|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5804|5825|GUISlotChangedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5835|5849|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5865|5879|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5889|5896|context|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|context|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5897|5913|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5916|5922|player|field|net.minecraft.network.NetHandlerPlayServer|player
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5935|5949|getServerWorld|method|net.minecraft.entity.player.EntityPlayerMP|getServerWorld|()Lnet/minecraft/world/WorldServer;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5952|5968|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|5995|6002|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6003|6009|slotID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|slotID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6033|6040|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6041|6051|changeType|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|changeType
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6069|6076|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6077|6081|meta|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|meta
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6096|6103|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6104|6105|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6120|6127|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6128|6129|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6144|6151|message|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler|onMessage|(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6152|6153|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6160|6176|handleSlotAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V
+      Method End: onMessage(Lnet/mcreator/godcraft/MCreatorDeathNoteGUI$GUISlotChangedMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessageHandler
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6279|6302|GUIButtonPressedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6314|6322|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6332|6340|buttonID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|buttonID|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6342|6343|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|x|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6345|6346|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|y|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6348|6349|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|z|
+      Method Start: GUIButtonPressedMessage()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6363|6386|GUIButtonPressedMessage|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|()V
+      Method End: GUIButtonPressedMessage()V
+      Method Start: GUIButtonPressedMessage(IIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6436|6444|buttonID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|buttonID|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6450|6451|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6457|6458|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6464|6465|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6408|6431|GUIButtonPressedMessage|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6478|6486|buttonID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|buttonID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6489|6497|buttonID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|buttonID|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6508|6509|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6512|6513|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6524|6525|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6528|6529|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6540|6541|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6544|6545|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|GUIButtonPressedMessage|(IIII)V|z|3
+      Method End: GUIButtonPressedMessage(IIII)V
+      Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6614|6617|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6558|6566|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6582|6589|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6590|6613|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6625|6628|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6629|6637|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6638|6646|buttonID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|buttonID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6653|6656|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6657|6665|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6666|6667|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6674|6677|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6678|6686|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6687|6688|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6695|6698|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6699|6707|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6708|6709|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|z
+      Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+      Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6781|6784|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6723|6731|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6747|6756|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6757|6780|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6792|6800|buttonID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|buttonID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6803|6806|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6807|6814|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6822|6823|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6826|6829|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6830|6837|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6845|6846|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6849|6852|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6853|6860|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6868|6869|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6872|6875|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6876|6883|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+      Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GUIButtonPressedMessage
+   Class Start: net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6920|6941|GUISlotChangedMessage|class|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6953|6961|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6971|6977|slotID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|slotID|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6979|6980|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|x|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6982|6983|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|y|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6985|6986|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|z|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|6988|6998|changeType|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|changeType|
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7000|7004|meta|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|meta|
+      Method Start: GUISlotChangedMessage()V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7018|7039|GUISlotChangedMessage|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|()V
+      Method End: GUISlotChangedMessage()V
+      Method Start: GUISlotChangedMessage(IIIIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7087|7093|slotID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|slotID|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7099|7100|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7106|7107|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7113|7114|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7120|7130|changeType|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|changeType|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7136|7140|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|meta|5
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7061|7082|GUISlotChangedMessage|method|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7153|7159|slotID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|slotID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7162|7168|slotID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|slotID|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7179|7180|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7183|7184|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|x|1
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7195|7196|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7199|7200|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|y|2
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7211|7212|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7215|7216|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|z|3
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7227|7237|changeType|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|changeType
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7240|7250|changeType|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|changeType|4
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7261|7265|meta|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|meta
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7268|7272|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|GUISlotChangedMessage|(IIIIII)V|meta|5
+      Method End: GUISlotChangedMessage(IIIIII)V
+      Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7341|7344|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7285|7293|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7309|7316|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7317|7340|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7352|7355|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7356|7364|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7365|7371|slotID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|slotID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7378|7381|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7382|7390|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7391|7392|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7399|7402|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7403|7411|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7412|7413|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7420|7423|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7424|7432|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7433|7434|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7441|7444|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7445|7453|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7454|7464|changeType|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|changeType
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7471|7474|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7475|7483|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7484|7488|meta|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|meta
+      Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+      Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7560|7563|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7502|7510|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7526|7535|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7536|7559|io.netty.buffer.ByteBuf|class|io.netty.buffer.ByteBuf|false
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7571|7577|slotID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|slotID
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7580|7583|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7584|7591|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7599|7600|x|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|x
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7603|7606|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7607|7614|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7622|7623|y|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|y
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7626|7629|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7630|7637|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7645|7646|z|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|z
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7649|7652|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7653|7660|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7668|7678|changeType|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|changeType
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7681|7684|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7685|7692|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7700|7704|meta|field|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|meta
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7707|7710|buf|param|net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+         @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7711|7718|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+      Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI.GUISlotChangedMessage
+   Method Start: handleButtonAction(Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7787|7793|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|entity|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7799|7807|buttonID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|buttonID|1
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7813|7814|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|x|2
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7820|7821|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|y|3
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7827|7828|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|z|4
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7755|7773|handleButtonAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7774|7786|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7835|7840|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7849|7855|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|entity|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7856|7861|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7938|7951|isBlockLoaded|method|net.minecraft.world.World|isBlockLoaded|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7956|7964|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7965|7966|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|x|2
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7968|7969|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|y|3
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7971|7972|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|z|4
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|7995|8003|buttonID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleButtonAction|(Lnet/minecraft/entity/player/EntityPlayer;IIII)V|buttonID|1
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8023|8040|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8041|8047|String|class|java.lang.String|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8049|8055|Object|class|java.lang.Object|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8078|8095|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8106|8127|MCreatorDeathNoteKill|class|net.mcreator.godcraft.MCreatorDeathNoteKill|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8128|8144|executeProcedure|method|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V
+   Method End: handleButtonAction(Lnet/minecraft/entity/player/EntityPlayer;IIII)V
+   Method Start: handleSlotAction(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8231|8237|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|entity|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8243|8249|slotID|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|slotID|1
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8255|8265|changeType|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|changeType|2
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8271|8275|meta|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|meta|3
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8281|8282|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|x|4
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8288|8289|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|y|5
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8295|8296|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|z|6
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8201|8217|handleSlotAction|method|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8218|8230|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8303|8308|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8317|8323|entity|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|entity|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8324|8329|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8406|8419|isBlockLoaded|method|net.minecraft.world.World|isBlockLoaded|(Lnet/minecraft/util/math/BlockPos;)Z
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8424|8432|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8433|8434|x|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|x|4
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8436|8437|y|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|y|5
+      @|net/mcreator/godcraft/MCreatorDeathNoteGUI.java|8439|8440|z|param|net.mcreator.godcraft.MCreatorDeathNoteGUI|handleSlotAction|(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V|z|6
+   Method End: handleSlotAction(Lnet/minecraft/entity/player/EntityPlayer;IIIIII)V
+Class End  : net.mcreator.godcraft.MCreatorDeathNoteGUI
+endProcessing "net/mcreator/godcraft/MCreatorDeathNoteGUI.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorDeathNoteKill.java" md5: 96951b70ccc3fca6bcd25fab29812ee9
+@|net/mcreator/godcraft/MCreatorDeathNoteKill.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorDeathNoteKill
+   @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|358|389|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|404|425|MCreatorDeathNoteKill|class|net.mcreator.godcraft.MCreatorDeathNoteKill|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|434|461|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   Method Start: MCreatorDeathNoteKill(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|512|520|instance|param|net.mcreator.godcraft.MCreatorDeathNoteKill|MCreatorDeathNoteKill|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|473|494|MCreatorDeathNoteKill|method|net.mcreator.godcraft.MCreatorDeathNoteKill|MCreatorDeathNoteKill|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|495|511|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|533|541|instance|param|net.mcreator.godcraft.MCreatorDeathNoteKill|MCreatorDeathNoteKill|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorDeathNoteKill(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|626|638|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|575|591|executeProcedure|method|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|592|609|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|610|616|String|class|java.lang.String|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|618|624|Object|class|java.lang.Object|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|649|661|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|662|665|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|691|697|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|698|701|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|702|709|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|808|820|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|821|824|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|856|862|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|863|866|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|867|874|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|975|981|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|992|998|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1000|1012|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1013|1016|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1031|1038|HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1055|1062|HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1064|1076|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteKill|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1077|1080|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1113|1118|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1119|1127|isRemote|field|net.minecraft.world.World|isRemote
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1138|1143|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1144|1162|getMinecraftServer|method|net.minecraft.world.World|getMinecraftServer|()Lnet/minecraft/server/MinecraftServer;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1187|1192|world|field|net.minecraft.entity.Entity|world
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1193|1211|getMinecraftServer|method|net.minecraft.world.World|getMinecraftServer|()Lnet/minecraft/server/MinecraftServer;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1214|1231|getCommandManager|method|net.minecraft.server.MinecraftServer|getCommandManager|()Lnet/minecraft/command/ICommandManager;
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1234|1248|executeCommand|method|net.minecraft.command.ICommandManager|executeCommand|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1253|1267|ICommandSender|class|net.minecraft.command.ICommandSender|false
+      Anon Class Start: net.mcreator.godcraft.MCreatorDeathNoteKill$1
+         Method Start: getName()Ljava/lang/String;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1278|1286|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1299|1305|String|class|java.lang.String|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1306|1313|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+         Method End: getName()Ljava/lang/String;
+         Method Start: canUseCommand(ILjava/lang/String;)Z
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1397|1407|permission|param|net.mcreator.godcraft.MCreatorDeathNoteKill$1|canUseCommand|(ILjava/lang/String;)Z|permission|0
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1416|1423|command|param|net.mcreator.godcraft.MCreatorDeathNoteKill$1|canUseCommand|(ILjava/lang/String;)Z|command|1
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1350|1358|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1379|1392|canUseCommand|method|net.minecraft.command.ICommandSender|canUseCommand|(ILjava/lang/String;)Z
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1409|1415|String|class|java.lang.String|false
+         Method End: canUseCommand(ILjava/lang/String;)Z
+         Method Start: getEntityWorld()Lnet/minecraft/world/World;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1461|1469|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1482|1487|World|class|net.minecraft.world.World|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1488|1502|getEntityWorld|method|net.minecraft.command.ICommandSender|getEntityWorld|()Lnet/minecraft/world/World;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1527|1532|world|field|net.minecraft.entity.Entity|world
+         Method End: getEntityWorld()Lnet/minecraft/world/World;
+         Method Start: getServer()Lnet/minecraft/server/MinecraftServer;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1549|1557|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1570|1585|MinecraftServer|class|net.minecraft.server.MinecraftServer|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1586|1595|getServer|method|net.minecraft.command.ICommandSender|getServer|()Lnet/minecraft/server/MinecraftServer;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1620|1625|world|field|net.minecraft.entity.Entity|world
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1626|1644|getMinecraftServer|method|net.minecraft.world.World|getMinecraftServer|()Lnet/minecraft/server/MinecraftServer;
+         Method End: getServer()Lnet/minecraft/server/MinecraftServer;
+         Method Start: sendCommandFeedback()Z
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1663|1671|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1692|1711|sendCommandFeedback|method|net.minecraft.command.ICommandSender|sendCommandFeedback|()Z
+         Method End: sendCommandFeedback()Z
+         Method Start: getPosition()Lnet/minecraft/util/math/BlockPos;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1751|1759|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1772|1780|BlockPos|class|net.minecraft.util.math.BlockPos|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1781|1792|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1817|1828|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+         Method End: getPosition()Lnet/minecraft/util/math/BlockPos;
+         Method Start: getPositionVector()Lnet/minecraft/util/math/Vec3d;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1847|1855|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1868|1873|Vec3d|class|net.minecraft.util.math.Vec3d|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1874|1891|getPositionVector|method|net.minecraft.command.ICommandSender|getPositionVector|()Lnet/minecraft/util/math/Vec3d;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1913|1918|Vec3d|class|net.minecraft.util.math.Vec3d|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1926|1930|posX|field|net.minecraft.entity.Entity|posX
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1939|1943|posY|field|net.minecraft.entity.Entity|posY
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1952|1956|posZ|field|net.minecraft.entity.Entity|posZ
+         Method End: getPositionVector()Lnet/minecraft/util/math/Vec3d;
+         Method Start: getCommandSenderEntity()Lnet/minecraft/entity/Entity;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1974|1982|Override|class|java.lang.Override|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|1995|2001|Entity|class|net.minecraft.entity.Entity|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2002|2024|getCommandSenderEntity|method|net.minecraft.command.ICommandSender|getCommandSenderEntity|()Lnet/minecraft/entity/Entity;
+         Method End: getCommandSenderEntity()Lnet/minecraft/entity/Entity;
+      Anon Class End: net.mcreator.godcraft.MCreatorDeathNoteKill$1
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2088|2094|Object|class|java.lang.Object|false
+      Anon Class Start: net.mcreator.godcraft.MCreatorDeathNoteKill$2
+         Method Start: getText()Ljava/lang/String;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2111|2117|String|class|java.lang.String|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2118|2125|getText|method|net.mcreator.godcraft.MCreatorDeathNoteKill$2|getText|()Ljava/lang/String;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2136|2148|GuiTextField|class|net.minecraft.client.gui.GuiTextField|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2162|2174|GuiTextField|class|net.minecraft.client.gui.GuiTextField|false
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2189|2192|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+            @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2264|2271|getText|method|net.minecraft.client.gui.GuiTextField|getText|()Ljava/lang/String;
+         Method End: getText()Ljava/lang/String;
+      Anon Class End: net.mcreator.godcraft.MCreatorDeathNoteKill$2
+      @|net/mcreator/godcraft/MCreatorDeathNoteKill.java|2313|2320|getText|method|net.mcreator.godcraft.MCreatorDeathNoteKill|getText|()Ljava/lang/String;
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : net.mcreator.godcraft.MCreatorDeathNoteKill
+endProcessing "net/mcreator/godcraft/MCreatorDeathNoteKill.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java" md5: b306605ffdbaac1d876d07c5b3b75df4
+@|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir
+   @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|159|190|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|205|239|MCreatorDeathNoteRightClickedInAir|class|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|false
+   @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|248|275|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   Method Start: MCreatorDeathNoteRightClickedInAir(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|339|347|instance|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|MCreatorDeathNoteRightClickedInAir|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|287|321|MCreatorDeathNoteRightClickedInAir|method|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|MCreatorDeathNoteRightClickedInAir|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|322|338|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|360|368|instance|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|MCreatorDeathNoteRightClickedInAir|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorDeathNoteRightClickedInAir(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|453|465|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|402|418|executeProcedure|method|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|419|436|java.util.HashMap|class|java.util.HashMap|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|437|443|String|class|java.lang.String|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|445|451|Object|class|java.lang.Object|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|476|488|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|489|492|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|518|524|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|525|528|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|529|536|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|648|660|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|661|664|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|685|691|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|692|695|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|696|703|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|810|822|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|823|826|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|847|853|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|854|857|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|858|865|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|972|984|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|985|988|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1009|1015|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1016|1019|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1020|1027|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1134|1146|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1147|1150|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1175|1181|System|class|java.lang.System|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1182|1185|err|field|java.lang.System|err
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1186|1193|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1300|1306|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1317|1323|Entity|class|net.minecraft.entity.Entity|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1325|1337|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1338|1341|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1370|1382|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1383|1386|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1410|1422|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1423|1426|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1450|1462|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1463|1466|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1476|1481|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1491|1496|World|class|net.minecraft.world.World|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1498|1510|dependencies|param|net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1511|1514|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1550|1562|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1570|1582|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1592|1599|openGui|method|net.minecraft.entity.player.EntityPlayer|openGui|(Ljava/lang/Object;ILnet/minecraft/world/World;III)V
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1600|1608|godcraft|class|net.mcreator.godcraft.godcraft|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1609|1617|instance|field|net.mcreator.godcraft.godcraft|instance
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1619|1639|MCreatorDeathNoteGUI|class|net.mcreator.godcraft.MCreatorDeathNoteGUI|false
+      @|net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java|1640|1645|GUIID|field|net.mcreator.godcraft.MCreatorDeathNoteGUI|GUIID
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : net.mcreator.godcraft.MCreatorDeathNoteRightClickedInAir
+endProcessing "net/mcreator/godcraft/MCreatorDeathNoteRightClickedInAir.java"
 
 startProcessing "net/mcreator/godcraft/MCreatorExistenceGem.java" md5: 630b8279b592129086013ae7b95b4529
 @|net/mcreator/godcraft/MCreatorExistenceGem.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
@@ -933,6 +1874,78 @@ Class Start: net.mcreator.godcraft.MCreatorGodsMask
    Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
 Class End  : net.mcreator.godcraft.MCreatorGodsMask
 endProcessing "net/mcreator/godcraft/MCreatorGodsMask.java"
+
+startProcessing "net/mcreator/godcraft/MCreatorGodsToiletPaper.java" md5: db5b421c265d7b1f9bd326cfe9a75b62
+@|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)
+Class Start: net.mcreator.godcraft.MCreatorGodsToiletPaper
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|552|583|Elementsgodcraft.ModElement.Tag|class|net.mcreator.godcraft.Elementsgodcraft.ModElement.Tag|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|598|621|MCreatorGodsToiletPaper|class|net.mcreator.godcraft.MCreatorGodsToiletPaper|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|630|657|Elementsgodcraft.ModElement|class|net.mcreator.godcraft.Elementsgodcraft.ModElement|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|739|743|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|663|688|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|739|743|Item|class|net.minecraft.item.Item|false
+   @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|744|749|block|field|net.mcreator.godcraft.MCreatorGodsToiletPaper|block|
+   Method Start: MCreatorGodsToiletPaper(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|810|818|instance|param|net.mcreator.godcraft.MCreatorGodsToiletPaper|MCreatorGodsToiletPaper|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|769|792|MCreatorGodsToiletPaper|method|net.mcreator.godcraft.MCreatorGodsToiletPaper|MCreatorGodsToiletPaper|(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|793|809|Elementsgodcraft|class|net.mcreator.godcraft.Elementsgodcraft|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|831|839|instance|param|net.mcreator.godcraft.MCreatorGodsToiletPaper|MCreatorGodsToiletPaper|(Lnet/mcreator/godcraft/Elementsgodcraft;)V|instance|0
+   Method End: MCreatorGodsToiletPaper(Lnet/mcreator/godcraft/Elementsgodcraft;)V
+   Method Start: initElements()V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|855|863|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|878|890|initElements|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|initElements|()V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|898|906|elements|field|net.mcreator.godcraft.Elementsgodcraft.ModElement|elements
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|907|912|items|field|net.mcreator.godcraft.Elementsgodcraft|items
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|913|916|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|927|937|ItemCustom|class|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|false
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1033|1038|event|param|net.mcreator.godcraft.MCreatorGodsToiletPaper|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|951|959|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|960|964|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|965|971|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|976|984|Override|class|java.lang.Override|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|999|1013|registerModels|method|net.mcreator.godcraft.Elementsgodcraft.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1014|1032|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1045|1056|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1057|1087|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1088|1093|block|field|net.mcreator.godcraft.MCreatorGodsToiletPaper|block
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1102|1123|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class Start: net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1195|1205|ItemCustom|class|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|false
+      @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1214|1218|Item|class|net.minecraft.item.Item|false
+      Method Start: ItemCustom()V
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1231|1241|ItemCustom|method|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|ItemCustom|()V
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1250|1262|setMaxDamage|method|net.minecraft.item.Item|setMaxDamage|(I)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1271|1283|maxStackSize|field|net.minecraft.item.Item|maxStackSize
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1294|1312|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1337|1352|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1377|1391|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1392|1404|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1405|1414|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      Method End: ItemCustom()V
+      Method Start: getItemEnchantability()I
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1428|1436|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1451|1472|getItemEnchantability|method|net.minecraft.item.Item|getItemEnchantability|()I
+      Method End: getItemEnchantability()I
+      Method Start: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1557|1566|itemstack|param|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I|itemstack|0
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1502|1510|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1525|1546|getMaxItemUseDuration|method|net.minecraft.item.Item|getMaxItemUseDuration|(Lnet/minecraft/item/ItemStack;)I
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1547|1556|ItemStack|class|net.minecraft.item.ItemStack|false
+      Method End: getMaxItemUseDuration(Lnet/minecraft/item/ItemStack;)I
+      Method Start: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1646|1659|par1ItemStack|param|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par1ItemStack|0
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1673|1682|par2Block|param|net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|par2Block|1
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1595|1603|Override|class|java.lang.Override|false
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1620|1635|getDestroySpeed|method|net.minecraft.item.Item|getDestroySpeed|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1636|1645|ItemStack|class|net.minecraft.item.ItemStack|false
+         @|net/mcreator/godcraft/MCreatorGodsToiletPaper.java|1661|1672|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      Method End: getDestroySpeed(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+   Class End  : net.mcreator.godcraft.MCreatorGodsToiletPaper.ItemCustom
+Class End  : net.mcreator.godcraft.MCreatorGodsToiletPaper
+endProcessing "net/mcreator/godcraft/MCreatorGodsToiletPaper.java"
 
 startProcessing "net/mcreator/godcraft/MCreatorHexadorium.java" md5: ade3cf06225f21e44c10171f8dc271af
 @|net/mcreator/godcraft/MCreatorHexadorium.java|8|29|net.mcreator.godcraft|package|net.mcreator.godcraft|(file)

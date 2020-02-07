@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "death_note_texture",
+    "customModelName": "Normal",
+    "name": "Death Note",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 10,
+    "toolType": 2.0,
+    "damageCount": 1,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "DeathNoteRightClickedInAir"
+    }
+  }
+}

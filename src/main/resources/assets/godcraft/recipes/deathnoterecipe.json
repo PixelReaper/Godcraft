@@ -1,0 +1,42 @@
+{
+  "group": "godcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "godcraft:blackskin"
+    },
+    "1": {
+      "item": "godcraft:blackskin"
+    },
+    "2": {
+      "item": "godcraft:blackskin"
+    },
+    "3": {
+      "item": "godcraft:godstoiletpaper"
+    },
+    "4": {
+      "item": "godcraft:godstoiletpaper"
+    },
+    "5": {
+      "item": "godcraft:godstoiletpaper"
+    },
+    "6": {
+      "item": "godcraft:blackskin"
+    },
+    "7": {
+      "item": "godcraft:blackskin"
+    },
+    "8": {
+      "item": "godcraft:blackskin"
+    }
+  },
+  "result": {
+    "item": "godcraft:deathnote",
+    "count": 1
+  }
+}

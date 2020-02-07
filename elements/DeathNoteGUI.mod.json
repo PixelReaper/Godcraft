@@ -1,0 +1,52 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "<none>",
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 240,
+          "height": 40,
+          "name": "Player",
+          "x": 309,
+          "y": 254
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PLAYER NAME:",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "PLAYER NAME:",
+          "x": 363,
+          "y": 200
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "KILL",
+          "onClick": {
+            "name": "DeathNoteKill"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "KILL",
+          "x": 387,
+          "y": 332
+        }
+      }
+    ],
+    "inventories": []
+  }
+}
